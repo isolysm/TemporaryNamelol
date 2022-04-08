@@ -1,2 +1,2 @@
 # Apple
-Making BetterFPS worse for real
+Remember, it isn't a bug, it's an intentional feature! 
