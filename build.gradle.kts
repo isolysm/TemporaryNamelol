@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.6.20"
     kotlin("plugin.serialization") version "1.6.20"
     id("com.github.johnrengelman.shadow") version "7.1.2"
-    id("gg.essential.loom") version "0.10.0.+"
+    id("gg.essential.loom") version "0.10.0.2"
     id("dev.architectury.architectury-pack200") version "0.1.3" 
     `maven-publish`
     java
@@ -21,3 +21,15 @@ repositories {
 }
 
 // What's up ratters, you can't add a rat. I crash your jvm like a snap. Fuck you.
+dependencies {
+    minecraft("com.mojang:minecraft:1.8.9")
+    mappings("de.oceanlabs.mcp:mcp_stable:22-1.8.9")
+
+
+}
+
+publishing {
+    publication {
+
+    }
+}
